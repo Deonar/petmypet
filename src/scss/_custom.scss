@@ -1,0 +1,55 @@
+
+
+$rem: 16;
+$grid-columns: 12;
+
+
+@function calc-rem($px) {
+	
+	$result: $px / $rem;
+	
+	@return $result + rem;
+}
+
+@function calc-lh($fs, $lh) {
+	
+	$result: $lh / $fs;
+	
+	@return $result;
+}
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1025px,
+  xl: 1200px,
+  // xxl: 1300px
+) !default;
+// scss-docs-end grid-breakpoints
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 960px,
+  xl: 1270px,
+  // xxl: 1400px
+) !default;
+
+$grid-gutter-width:           1.9rem !default;
+
+
+$transition_fast: all 0.1s ease-in-out;
+$transition_normal: all 0.3s ease-in-out;
+
+
+$input-padding-y: 0.5rem;
+$input-padding-x: 1rem;
+$input-font-size: 1.25rem;
+$input-line-height: 1.6;
+$input-border-width: 0;
+$input-border-radius: 0.625rem;
+
+
+

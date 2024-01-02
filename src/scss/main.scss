@@ -1,0 +1,17 @@
+@import 'fonts';
+@import 'reset';
+@import "custom";
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+@import "node_modules/bootstrap/scss/forms";
+
+//Library
+// AOS
+@import "library/aos/aos.min";
+// Swiper 
+@import "node_modules/swiper/swiper";
+
+@import 'base';
+@import 'header';
+@import 'blocks';
+@import 'footer';
